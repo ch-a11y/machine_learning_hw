@@ -4,7 +4,16 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Machine_Learning"
+    "# Machine Learning"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "In today's new business environment, more and more people obtain mortgages, auto loans, and debt consolidation from online services. Machine learning algorithms are designed to predict credit risks.\n",
+    "\n",
+    "In this assignment I utilized the imbalanced-learn, Scikit-learn and other tools and libraries to build and evaluate the models using the following techniques: \n"
    ]
   },
   {
@@ -25,14 +34,14 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "- In terms of recall, again, oversampling had the highest scores - this time SMOTE the highest with 0.67.\n"
+    "- In terms of recall, again, oversampling had the highest scores.\n"
    ]
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "- Oversampling was also highest for geometric mean, with naive oversampling the highest with a score of 0.63.\n"
+    "- Oversampling was also highest for geometric mean, with naive oversampling resulted the highest score.\n"
    ]
   },
   {
@@ -46,21 +55,21 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "- Of the two models, the Easy Ensemble AdaBoost Classifier had the higher balanced accuracy score of 0.945.\n"
+    "- Of the two models, the Easy Ensemble Classifier had the higher balanced accuracy score.\n"
    ]
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "- The Easy Ensemble Classifier also had the better recall, with a weighed average score of 0.94.\n"
+    "- The Easy Ensemble Classifier also had the better recall with the weighed average score.\n"
    ]
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "- Geometric mean was not reported in the classification report, but the Easy Ensemble Classifier had the higher F1 score of 0.97 (weighted average)\n"
+    "- Geometric mean was not reported in the classification report, but the Easy Ensemble Classifier had the higher F1 score (weighted average).\n"
    ]
   },
   {
@@ -68,9 +77,9 @@
    "metadata": {},
    "source": [
     "- For the balanced random forest model, the top three features were:\n",
-    "    Total Received Principal (0.08)\n",
-    "    Last Payment Amount (0.068)\n",
-    "    Total Received Interest (0.064)\n",
+    "    Total Received Principal\n",
+    "    Last Payment Amount\n",
+    "    Total Received Interest\n",
     "    "
    ]
   },
