@@ -11,7 +11,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "In today's new business environment, more and more people obtain mortgages, auto loans, and debt consolidation from online services. Machine learning algorithms are designed to predict credit risks.\n",
+    "In today's business environment, more and more people obtain mortgages, auto loans, and debt consolidation from online services. Machine learning algorithms are designed to predict credit risks.\n",
     "\n",
     "In this assignment I utilized the imbalanced-learn, Scikit-learn and other tools and libraries to build and evaluate the models using the following techniques: \n"
    ]
